@@ -8,21 +8,24 @@ This Retrieval Augmented Generation (RAG) is a project aimed at optimizing the o
 ## Getting Started
 To run the  ChatBot project locally, follow these steps:
 
-Clone the Repository: git clone {repo url}
+*Clone the Repository: git clone {repo url}
 
-Install Dependencies: Navigate to the project directory and install the required dependencies: pip install -r requirements.txt
+*Install Dependencies: Navigate to the project directory and install the required dependencies: pip install -r requirements.txt
 
-Add Google API Key: Obtain a OPENAI API key and add it to the .env file in the project directory: OPENAI_API_KEY=your_openai_api_key
+*Add Google API Key: Obtain a OPENAI API key and add it to the .env file in the project directory: OPENAI_API_KEY=your_openai_api_key
 
-Run the Project: Launch the chatbot application using Streamlit: streamlit run rag.py
+*Run the Project: Launch the chatbot application using Streamlit: streamlit run rag.py
 
-Interact with the ChatBot: Open your web browser and navigate to the provided URL to interact with  ChatBot.
+*Interact with the ChatBot: Open your web browser and navigate to the provided URL to interact with  ChatBot.
 
-Project Structure
+## Project Structure
 The project structure is organized as follows:
 
-rag.py: Main application file containing the Streamlit user interface and chatbot functionality.
-requirements.txt: List of Python dependencies required to run the project.
-.env: Environment configuration file for storing sensitive information (e.g., API keys).
-README.md: Project documentation file.
+*rag.py: Main application file containing the Streamlit user interface and chatbot functionality.
+
+*requirements.txt: List of Python dependencies required to run the project.
+
+*.env: Environment configuration file for storing sensitive information (e.g., API keys).
+
+*README.md: Project documentation file.
 
